@@ -19,7 +19,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 import os
 import zipfile
 # Extract the zip file
-zip_path = "limited_data.zip"
+zip_path = "./limited_data.zip"
 extract_path = "."
 
 if not os.path.exists(extract_path + "/limited_data.csv"):
